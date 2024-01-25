@@ -30,6 +30,7 @@ main{
     display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-columns: 1/5fr;
     background-color: var(--color-off-black);
     color: var(--color-white);
 }
@@ -81,4 +82,8 @@ button:hover{
     color: var(--color-dark-grey);
     transition: all .9s ease;
     cursor: pointer;
+}
+
+@media (min-width: 23.4375em){
+    
 }
